@@ -1,4 +1,5 @@
-
+import LikeLogo from "../../assets/like.svg"
+import UnLikeLogo from "../../assets/unlike.svg"
 
 const LikeUnlike = () => {
     return (
@@ -7,7 +8,7 @@ const LikeUnlike = () => {
             <div className="shrink-0">
                 <img
                     className="w-5 block"
-                    src="./assets/like.svg"
+                    src={LikeLogo}
                     alt="Like"
                 />
             </div>
@@ -21,7 +22,7 @@ const LikeUnlike = () => {
             <div className="shrink-0">
                 <img
                     className="w-5 block"
-                    src="./assets/unlike.svg"
+                    src={UnLikeLogo}
                     alt="Unlike"
                 />
             </div>

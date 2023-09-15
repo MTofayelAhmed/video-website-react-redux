@@ -1,11 +1,12 @@
 
 
-import Home from './pages/Home/Home';
-
+// import Home from './pages/Home/Home';
+import Video from "./pages/Video/Video"
 
 function App() {
   return (
-   <Home></Home>
+  //  <Home></Home>
+  <Video></Video>
   );
 }
 
